@@ -1,0 +1,133 @@
+ul {
+	list-style: none;
+	font-size: 14px;
+}
+
+dt,dd{
+	display: inline-block;
+	font-size: 14px;
+}
+
+p {
+	font-size: 14px;
+}
+
+#contents {
+	background-size:100% 1900px;
+	height: 1900px;
+}
+
+/*.sub_title*/
+
+.sub_title{
+    position: relative;
+    color: #111;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    padding: 7px 7px 7px 23.8px;
+    border-bottom: 3px solid #B92A2C;
+}
+ 
+.title1 {
+	margin-left: -2.5%;
+	padding-left: 2.5%;
+	margin-right: -2.5%;
+	padding-right: 2.5%;
+}
+
+
+.sub_title:before{
+    content: "";
+    position: absolute;
+    background: #d48789;
+    top: 0;
+    left: 5.6px;
+    height: 12px;
+    width: 12px;
+    transform: rotate(45deg);
+}
+ 
+.sub_title:after{
+    content: "";
+    position: absolute;
+    background:#d26466;
+    top: 14px;
+    left: 0;
+    height: 8px;
+    width: 8px;
+    transform: rotate(15deg);
+}
+
+#content3 > p {
+	width: 80%;
+	margin: 0 auto;
+	font-size: 14px;
+}
+
+/*.job*/
+
+.job {
+	width: 90%; 
+	margin: 0 auto;
+}
+
+.job h4 {
+	border-left: 3px solid #00d;
+	padding-left: 7px;
+}
+
+.get_job > div {
+	margin-bottom: 20px;
+}
+
+.get_job dl {
+	margin-left: 14px;
+}
+
+.get_job dt{
+	margin-left: 10px;
+}
+
+
+/*.compare*/
+.compare {
+	width: 100%
+}
+
+.compare .layout {
+	width: 50%;
+	float: left;
+}
+
+.compare .layout div {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.layout h4 {
+	text-align: center;
+}
+
+.compare h5 {
+	text-align: center;
+}
+
+.compare p:nth-child(1){
+	width: 93%;
+	margin: 0 auto 10px;
+}
+
+.compare p:nth-child(2) {
+	border-bottom: 1px dashed #00d;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.compare p:last-child {
+	clear: both;
+	border-top: 1px dashed #00d;
+	width: 70%;
+	margin: 0 auto 20px;
+	padding: 20px 10% 0;
+}
